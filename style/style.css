@@ -151,7 +151,6 @@ button:hover {
     text-transform: uppercase;
     color: #FF0000;
     font-size: 1.6rem;
-    font-family: sans-serif;
     margin-bottom: 1rem;
 }
 .leftItem h2 {
@@ -200,7 +199,7 @@ button:hover {
 }
 .heading h5 {
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     color: #070211;
     margin-bottom: 1rem;
@@ -216,7 +215,7 @@ button:hover {
     color: #f00;
 }
 .heading p {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
     color: rgba(7, 2, 17, 0.60);
     line-height: 2.3rem;
@@ -250,4 +249,65 @@ button:hover {
 }
 .portfolio-galleray  img {
     width: 100%;
+}
+
+/* NewsLetter section */
+
+.newsletter {
+    background: rgba(255, 0, 0, 0.05);
+}
+.news-contents {
+    text-align: center;
+    padding: 5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.news-contents .icon {
+    width: 8rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.news-contents .icon img {
+    width: 100%;
+}
+.news-contents h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.news-contents p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+}
+.news-contents form .mail {
+    width: 22rem;
+    border: none;
+    background: #fff;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 3rem 0 0 3rem;
+    outline: none;
+}
+.news-contents form .btn {
+    width: 10rem;
+    border: none;
+    background: #f00;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0 3rem 3rem 0;
+    transition: .3s ease;
+}
+.news-contents form .btn:hover {
+    cursor: pointer;
+    background: #ba0303;
+}
+
+/* Footer Area */
+footer {
+    margin-top: 10rem;
 }
