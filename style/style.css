@@ -220,13 +220,34 @@ button:hover {
     font-size: 1.4rem;
     color: rgba(7, 2, 17, 0.60);
     line-height: 2.3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 .holiday-contents {
-    height: 39rem;
+    height: 39.8rem;
 }
 .holiday-contents img {
     width: 100%;
+    height: 100%;
 }
 
-
+/* Portfolio section */
+#portfolio .heading {
+    width: 50%;
+    margin: 0;
+    text-align: left;
+}
+#portfolio .heading h5 {
+    color: #f00;
+}
+#portfolio .heading h2 {
+    font-size: 3rem;
+}
+.portfolio-galleray {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 1rem;
+}
+.portfolio-galleray  img {
+    width: 100%;
+}
