@@ -1,4 +1,5 @@
 /* Reset style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&family=Merriweather:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +16,9 @@ section {
 }
 button {
     display: block;
-    background: #FF0000;
+    font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
+    background: #F00;
     text-transform: uppercase;
     padding: 1rem 1.6rem;
     color: #fff;
@@ -47,36 +49,37 @@ button:hover {
     text-align: center;
 }
 .banner-contents h4 {
+    font-family: 'Merriweather', serif;
     font-size: 2.6rem;
     color: #fff;
     margin-bottom: 1rem;
 }
 .banner-contents h1 {
+    font-family: 'Merriweather', serif;
     font-size: 6rem;
     color: #fff;
     margin-bottom: 1rem;
-    font-family: Merriweather;
 }
 
 /* Offer Section */
 .offer-contents {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .offer-contents h2 {
     font-size: 6rem;
-    color: #FF0000;
+    color: #F00;
     margin-bottom: 2rem;
 }
 .offer-contents h6 {
     font-size: 1.6rem;
-    color: #FF0000;
+    color: #F00;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 .offer-contents h3 {
     font-size: 3rem;
-    color: #000;
+    color: #070211;
     text-transform: uppercase;
     margin-bottom: 3rem;
 }
@@ -99,13 +102,15 @@ button:hover {
     width: 60%;
 }
 .party-contents h2 {
+    font-family: 'Merriweather', serif;
     font-size: 6rem;
     color: #fff;
     margin-bottom: 1.5rem;
 }
 .party-contents p {
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.80);
     line-height: 2.4rem;
     margin-bottom: 1.5rem;
 }
@@ -113,7 +118,7 @@ button:hover {
 /* Location & Time section  */
 .location {
     height: 35rem;
-    background: linear-gradient(to bottom, rgba(252, 252, 239, 0.2),  rgba(242, 242, 237, 0.5));
+    background-image: linear-gradient(0deg, #fdfbfb 0%, #ebedee 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +126,11 @@ button:hover {
 .location-contents div {
     margin-bottom: 1rem;
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 .location-contents div span {
-    color: red;
+    color: #F00;
     font-size: 2rem;
 }
 .location-contents button {
@@ -137,6 +142,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 .leftItem {
     flex-basis: 25%;
@@ -149,14 +155,14 @@ button:hover {
     margin-bottom: 1rem;
 }
 .leftItem h2 {
+    font-family: 'Merriweather', serif;
     font-size: 2.8rem;
-    color: #000;
+    color: #070211;
     margin-bottom: 1rem;
 }
 .leftItem p {
     font-size: 1.4rem;
-    font-family: sans-serif;
-    color: #717171;
+    color: rgba(7, 2, 17, 0.60);
     line-height: 2.2rem;
 }
 .midItem {
@@ -173,16 +179,54 @@ button:hover {
 }
 .rightItem h2 {
     font-size: 4rem;
-    color: red;
-    font-family: sans-serif;
+    color: #F00;
     margin-bottom: 1rem;
 }
 .rightItem p {
     font-size: 1.4rem;
-    color: #717171;
+    color: rgba(7, 2, 17, 0.60);
     line-height: 2.2rem;
     margin-bottom: 2rem;
 }
 .rightItem .pic img {
     width: 6rem;
 }
+
+/* Holiday offer */
+.heading {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading h5 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    color: #070211;
+    margin-bottom: 1rem;
+}
+.heading h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 6rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+.heading h2 span {
+    font-size: 6rem;
+    color: #f00;
+}
+.heading p {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 2.3rem;
+    margin-bottom: 6rem;
+}
+.holiday-contents {
+    height: 39rem;
+}
+.holiday-contents img {
+    width: 100%;
+}
+
+
