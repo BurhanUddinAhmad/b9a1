@@ -247,8 +247,13 @@ button:hover {
     justify-content: space-between;
     gap: 1rem;
 }
-.portfolio-galleray  img {
+.portfolio-galleray img {
     width: 100%;
+    transition: all .3s ease;
+}
+.portfolio-galleray img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 .2rem .5rem .1em rgba(0, 0, 0, 0.1);
 }
 
 /* NewsLetter section */
@@ -309,5 +314,34 @@ button:hover {
 
 /* Footer Area */
 footer {
+    background: #070211;
     margin-top: 10rem;
+    padding: 5rem 0;
+    font-family: 'Inter', sans-serif;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.address h6 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+.social-contacts {
+    text-align: center;
+}
+.social-contacts a img {
+     width: 3rem;
+     margin-right: 1rem;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.copyright small {
+    color: #fff;
+    font-size: 1.2rem;
 }
